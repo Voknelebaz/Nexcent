@@ -2,37 +2,28 @@
 @import "../assets/fonts/fonts";
 @import "./blocks/blockBase";
 
+
+body{
+	font-family: 'Inter', 'sans-serif';
+}
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+	
 }
 
 .page {
 	flex: 1 1 auto;
+	
+	
 }
 
 [class*="__container"] {
-	max-width: 1080px;
+	max-width: 74.0625rem;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 0.9375rem;
 }
 
-@media (max-width: 1109.98px) {
-	[class*="__container"] {
-		max-width: 970px;
-	}
-}
 
-@media (max-width: 990.98px) {
-	[class*="__container"] {
-		max-width: 750px;
-	}
-}
-
-@media (max-width: 767.98px) {
-	[class*="__container"] {
-		max-width: none;
-	}
-}
