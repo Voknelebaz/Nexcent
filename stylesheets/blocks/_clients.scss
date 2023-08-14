@@ -1,0 +1,28 @@
+.clients {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    .clients__title {
+        color: $primary-color;
+        font-family: Inter;
+        font-size: 2.25rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .clients__text {
+        color: $primary-color2;
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .clients__icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
