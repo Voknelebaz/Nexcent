@@ -1,0 +1,77 @@
+.achiviements {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: $background-color;
+    .achiviements__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .achiviements__info {
+            display: flex;
+            max-width: 33.75rem;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-shrink: 0;
+            .achiviements__title {
+                color: $primary-color;
+                font-family: Inter;
+                font-size: 2.25rem;
+                font-weight: 600;
+                line-height: 2.75rem;
+                max-width: 25.5rem;
+            }
+
+            .achiviements__text {
+                color: $menu-color-text;
+                font-family: Inter;
+                font-size: 1rem;
+
+                font-weight: 400;
+                line-height: 1.5rem;
+            }
+            .achiviements__text--green {
+                color: $secondary-color;
+            }
+        }
+
+        .achiviements__points {
+            display: flex;
+            flex-wrap: wrap;
+            width: 33.75rem;
+            align-items: center;
+            gap: 2.5rem;
+            .achiviements__column {
+                display: flex;
+            }
+            .achiviements__point {
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                padding-bottom: 2.5rem;
+                .achiviements__point-logo {
+                    gap: 1rem;
+                    width: 3rem;
+                    height: 3rem;
+                }
+                .achiviements__point-info {
+                    .achiviements__point-number {
+                        color: $primary-color;
+                        font-family: Inter;
+                        font-size: 1.75rem;
+                        font-weight: 700;
+                        line-height: 2.25rem;
+                    }
+                    .achiviements__point-text {
+                        color: $primary-color2;
+                        font-family: Inter;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        line-height: 1.5rem; /* 150% */
+                    }
+                }
+            }
+        }
+    }
+}
