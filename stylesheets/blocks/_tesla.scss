@@ -1,0 +1,54 @@
+.tesla {
+    padding: 2rem 0;
+    background-color: $background-color;
+    margin-bottom: 3rem;
+    .tesla__body {
+        display: flex;
+        gap: 4.88rem;
+        .tesla__image {
+            max-width: 20.375rem;
+            max-height: 20.375rem;
+        }
+        .tesla__text {
+            color: $primary-color2;
+            font-family: Inter;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+            padding-bottom: 1rem;
+        }
+        .tesla__author {
+            color: $secondary-color;
+            font-family: Inter;
+            font-size: 1.25rem;
+            font-weight: 600;
+            line-height: 1.75rem;
+            padding-bottom: 0.5rem;
+        }
+        .tesla__position {
+            padding-bottom: 2rem;
+            color: $tesla-position-color;
+            font-family: Inter;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+        .tesla__icons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .tesla__customer {
+                color: $secondary-color;
+                font-family: Inter;
+                font-size: 1.25rem;
+                font-weight: 600;
+                line-height: 1.75rem;
+            }
+
+            .tesla__customer:hover {
+                cursor: pointer;
+                color: $secondary-color-hover;
+            }
+        }
+    }
+}

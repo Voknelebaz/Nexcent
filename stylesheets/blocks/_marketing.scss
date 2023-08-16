@@ -1,0 +1,83 @@
+.marketing {
+    padding-bottom: 5.91rem;
+    .marketing__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .marketing__info {
+            text-align: center;
+            margin-bottom: 1rem;
+            .marketing__title {
+                color: $primary-color;
+                font-family: Inter;
+                font-size: 2.25rem;
+                font-weight: 600;
+                line-height: 2.75rem;
+            }
+
+            .marketing__text {
+                color: $primary-color2;
+                width: 39.25rem;
+                font-family: Inter;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+            }
+        }
+        .marketing__cards {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+            .marketing__card {
+                position: relative;
+
+                .card__image {
+                }
+                .card__info {
+                    margin-right: 1.59rem;
+                    display: flex;
+                    flex-direction: column;
+                    background: $background-color;
+                    align-items: center;
+                    max-width: 19.8rem;
+                    max-height: 11rem;
+                    border-radius: 0.5rem;
+                    padding: 1rem;
+                    gap: 1rem;
+                    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+                    position: absolute;
+                    top: 11.88rem;
+                    left: 1.59rem;
+                    .card__text {
+                        max-width: 17.8rem;
+                        text-align: center;
+                        color: $primary-color2;
+
+                        font-family: Inter;
+                        font-size: 1.25rem;
+
+                        font-weight: 600;
+                        line-height: 1.75rem;
+                    }
+                    .card__more {
+                        cursor: pointer;
+                        color: $secondary-color;
+
+                        font-family: Inter;
+                        font-size: 1.25rem;
+
+                        font-weight: 600;
+                        line-height: 1.75rem; 
+                    }
+                    .card__more:hover {
+                       
+                        color: $secondary-color-hover;
+
+                       
+                    }
+                }
+            }
+        }
+    }
+}

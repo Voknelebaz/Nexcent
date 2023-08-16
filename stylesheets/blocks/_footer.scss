@@ -1,0 +1,93 @@
+.footer {
+    background: $background-footer;
+    padding: 4rem 0;
+    .footer__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer__logo {
+            max-width: 8.61488rem;
+            max-height: 1.59656rem;
+        }
+        .footer__copyrights {
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            gap: 2.5rem;
+            .footer__copyrights-text p {
+                color: $background-color;
+                font-family: Inter;
+                font-size: 0.875rem;
+                max-width: 21.875rem;
+                font-weight: 400;
+                line-height: 1.25rem;
+            }
+            .footer__icons {
+                display: flex;
+                gap: 1rem;
+                .footer__icon-link {
+                    text-decoration: none;
+                    max-width: 2rem;
+                    max-height: 2rem;
+                    border-radius: 50%;
+                    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+                    background-color: $footer-icons-bg;
+                }
+            }
+        }
+        .footer__menu {
+            display: flex;
+            gap: 1.8rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .footer__menu-col {
+                display: flex;
+                flex-direction: column;
+                gap: 0.75rem;
+                min-width: 10rem;
+                .menu-col__item {
+                    color: $background-color;
+                    font-family: Inter;
+                    font-size: 0.875rem;
+
+                    line-height: 1.25rem;
+                    .menu-col__title {
+                        color: $common-white;
+                        font-family: Inter;
+                        font-size: 1.25rem;
+                        font-weight: 600;
+                        line-height: 1.75rem;
+                    }
+                }
+                .menu-col__title {
+                    color: $common-white;
+                    font-family: Inter;
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                    line-height: 1.75rem;
+                }
+                .menu-col__item a {
+                    color: $background-color;
+                    text-decoration: none;
+                    font-family: Inter;
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
+                }
+            }
+            .footer__menu-col input {
+                border-radius: 0.5rem;
+background-color:$tesla-position-color;
+                padding: 0.5rem;
+                border: none;
+            }
+            .footer__menu-col input::placeholder {
+                color: $demo-title-color;
+
+                font-family: Inter;
+                font-size: 0.875rem;
+
+                line-height: 1.25rem;
+            }
+        }
+    }
+}

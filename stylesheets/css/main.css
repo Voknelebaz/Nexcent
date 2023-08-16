@@ -653,6 +653,268 @@ template {
   border: 1px solid #1e8821;
 }
 
+.tesla {
+  padding: 2rem 0;
+  background-color: #F5F7FA;
+  margin-bottom: 3rem;
+}
+.tesla .tesla__body {
+  display: flex;
+  gap: 4.88rem;
+}
+.tesla .tesla__body .tesla__image {
+  max-width: 20.375rem;
+  max-height: 20.375rem;
+}
+.tesla .tesla__body .tesla__text {
+  color: #717171;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+.tesla .tesla__body .tesla__author {
+  color: #4CAF4F;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  padding-bottom: 0.5rem;
+}
+.tesla .tesla__body .tesla__position {
+  padding-bottom: 2rem;
+  color: #89939E;
+  font-family: Inter;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.tesla .tesla__body .tesla__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tesla .tesla__body .tesla__icons .tesla__customer {
+  color: #4CAF4F;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.tesla .tesla__body .tesla__icons .tesla__customer:hover {
+  cursor: pointer;
+  color: #1e8821;
+}
+
+.marketing {
+  padding-bottom: 5.91rem;
+}
+.marketing .marketing__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.marketing .marketing__body .marketing__info {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.marketing .marketing__body .marketing__info .marketing__title {
+  color: #4D4D4D;
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+}
+.marketing .marketing__body .marketing__info .marketing__text {
+  color: #717171;
+  width: 39.25rem;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.marketing .marketing__body .marketing__cards {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.marketing .marketing__body .marketing__cards .marketing__card {
+  position: relative;
+}
+.marketing .marketing__body .marketing__cards .marketing__card .card__info {
+  margin-right: 1.59rem;
+  display: flex;
+  flex-direction: column;
+  background: #F5F7FA;
+  align-items: center;
+  max-width: 19.8rem;
+  max-height: 11rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  position: absolute;
+  top: 11.88rem;
+  left: 1.59rem;
+}
+.marketing .marketing__body .marketing__cards .marketing__card .card__info .card__text {
+  max-width: 17.8rem;
+  text-align: center;
+  color: #717171;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.marketing .marketing__body .marketing__cards .marketing__card .card__info .card__more {
+  cursor: pointer;
+  color: #4CAF4F;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.marketing .marketing__body .marketing__cards .marketing__card .card__info .card__more:hover {
+  color: #1e8821;
+}
+
+.demo {
+  padding: 2rem 0;
+  background: #F5F7FA;
+}
+.demo .demo__body {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.demo .demo__body .demo__title {
+  color: #263238;
+  text-align: center;
+  font-family: Inter;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.75rem;
+  max-width: 55.4rem;
+}
+.demo .demo__body .button {
+  text-align: center;
+  font-family: "Inter", "sans-serif";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+.demo .demo__body .button--green {
+  color: #FFF;
+  padding: 0.875rem 2rem;
+  background-color: #4CAF4F;
+  border: 1px solid #4CAF4F;
+  border-radius: 0.25rem;
+}
+.demo .demo__body .button--green:hover {
+  background-color: #1e8821;
+  border: 1px solid #1e8821;
+}
+
+.footer {
+  background: #263238;
+  padding: 4rem 0;
+}
+.footer .footer__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footer__body .footer__logo {
+  max-width: 8.61488rem;
+  max-height: 1.59656rem;
+}
+.footer .footer__body .footer__copyrights {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.footer .footer__body .footer__copyrights .footer__copyrights-text p {
+  color: #F5F7FA;
+  font-family: Inter;
+  font-size: 0.875rem;
+  max-width: 21.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+.footer .footer__body .footer__copyrights .footer__icons {
+  display: flex;
+  gap: 1rem;
+}
+.footer .footer__body .footer__copyrights .footer__icons .footer__icon-link {
+  text-decoration: none;
+  max-width: 2rem;
+  max-height: 2rem;
+  border-radius: 50%;
+  padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+  background-color: #666666;
+}
+.footer .footer__body .footer__menu {
+  display: flex;
+  gap: 1.8rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer .footer__body .footer__menu .footer__menu-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 10rem;
+}
+.footer .footer__body .footer__menu .footer__menu-col .menu-col__item {
+  color: #F5F7FA;
+  font-family: Inter;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.footer .footer__body .footer__menu .footer__menu-col .menu-col__item .menu-col__title {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.footer .footer__body .footer__menu .footer__menu-col .menu-col__title {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.footer .footer__body .footer__menu .footer__menu-col .menu-col__item a {
+  color: #F5F7FA;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.footer .footer__body .footer__menu .footer__menu-col input {
+  border-radius: 0.5rem;
+  background-color: #89939E;
+  padding: 0.5rem;
+  border: none;
+}
+.footer .footer__body .footer__menu .footer__menu-col input::-moz-placeholder {
+  color: #263238;
+  font-family: Inter;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.footer .footer__body .footer__menu .footer__menu-col input::placeholder {
+  color: #263238;
+  font-family: Inter;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 body {
   font-family: "Inter", "sans-serif";
 }
