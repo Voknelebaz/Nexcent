@@ -73,10 +73,15 @@
                     font-size: 0.875rem;
                     line-height: 1.25rem;
                 }
+
+                .menu-col__item a:hover {
+                    text-decoration: underline 2px;
+
+                }
             }
             .footer__menu-col input {
                 border-radius: 0.5rem;
-background-color:$tesla-position-color;
+                background-color: $tesla-position-color;
                 padding: 0.5rem;
                 border: none;
             }

@@ -896,6 +896,10 @@ template {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.footer .footer__body .footer__menu .footer__menu-col .menu-col__item a:hover {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
 .footer .footer__body .footer__menu .footer__menu-col input {
   border-radius: 0.5rem;
   background-color: #89939E;
