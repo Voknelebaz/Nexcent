@@ -8,6 +8,7 @@
             text-align: center;
             margin-bottom: 1rem;
             .marketing__title {
+                max-width: 39.25rem;
                 color: $primary-color;
                 font-family: Inter;
                 font-size: 2.25rem;
@@ -17,7 +18,7 @@
 
             .marketing__text {
                 color: $primary-color2;
-                width: 39.25rem;
+                max-width: 39.25rem;
                 font-family: Inter;
                 font-size: 1rem;
                 font-weight: 400;
@@ -28,12 +29,10 @@
             display: flex;
             gap: 1.5rem;
             align-items: center;
-            flex-wrap: wrap;
+
             .marketing__card {
                 position: relative;
 
-                .card__image {
-                }
                 .card__info {
                     margin-right: 1.59rem;
                     display: flex;
@@ -68,13 +67,10 @@
                         font-size: 1.25rem;
 
                         font-weight: 600;
-                        line-height: 1.75rem; 
+                        line-height: 1.75rem;
                     }
                     .card__more:hover {
-                       
                         color: $secondary-color-hover;
-
-                       
                     }
                 }
             }

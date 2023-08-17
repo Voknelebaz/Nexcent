@@ -5,6 +5,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap:3rem;
         .footer__logo {
             max-width: 8.61488rem;
             max-height: 1.59656rem;
@@ -44,7 +45,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 0.75rem;
-                min-width: 10rem;
+                max-width: 10rem;
                 .menu-col__item {
                     color: $background-color;
                     font-family: Inter;
@@ -83,6 +84,7 @@
                 border-radius: 0.5rem;
                 background-color: $tesla-position-color;
                 padding: 0.5rem;
+                max-width: 10rem;
                 border: none;
             }
             .footer__menu-col input::placeholder {

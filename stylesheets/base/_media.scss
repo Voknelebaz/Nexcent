@@ -1,0 +1,264 @@
+/*--------------------- MEDIA HEADER --------------------------*/
+@media screen and (max-width: 988px) {
+    .header .header__wrapper .menu__list {
+        gap: 1rem;
+    }
+    .header {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header .header__wrapper .menu__list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .header .header__wrapper .header__login {
+        display: none;
+    }
+
+    .header .header__wrapper .header__logo {
+        width: 9.6rem;
+        height: 1.5rem;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+}
+
+/*--------------------- HERO SECTION --------------------------*/
+
+@media screen and (max-width: 988px) {
+    .hero .hero__body .hero__info .hero__title {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        padding-bottom: 1rem;
+        max-width: 41rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero .hero__container .hero__body {
+        gap: 3rem;
+    }
+    .hero .hero__body .hero__img .hero__image {
+        max-width: 20.4375rem;
+        height: 20.4375rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .hero .hero__body .hero__img .hero__image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .hero .hero__container .hero__body {
+        display: block;
+    }
+    .hero .hero__container .hero__body .hero__info {
+        text-align: center;
+    }
+}
+
+/*--------------------- CLIENTS SECTION --------------------------*/
+@media screen and (max-width: 398px) {
+    .clients .clients__container .clients__icons {
+        justify-content: center;
+    }
+}
+
+/*--------------------- Community SECTION --------------------------*/
+
+@media screen and (max-width: 767px) {
+    .community .community__container .community__info .community__title {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.75rem;
+        max-width: 33.875rem;
+        margin: 0 auto;
+        padding-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .community .community__container .community__cards .community__card {
+        max-width: 13.6875rem;
+    }
+}
+
+/*--------------------- UNLOCK SECTION --------------------------*/
+
+@media screen and (max-width: 988px) {
+}
+
+@media screen and (max-width: 767px) {
+    .unlock .unlock__body .unlock__image {
+        display: none;
+    }
+    .unlock .unlock__container .unlock__body {
+        justify-content: center;
+    }
+    .unlock .unlock__body .unlock__info {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+}
+
+@media screen and (max-width: 398px) {
+}
+
+/*--------------------- ACHIVIEMENTS SECTION --------------------------*/
+
+@media screen and (max-width: 988px) {
+    .achiviements .achiviements__body {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .achiviements .achiviements__container .achiviements__body .achiviements__points {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .achiviements .achiviements__container .achiviements__body .achiviements__info {
+        text-align: center;
+    }
+
+    .achiviements .achiviements__container .achiviements__body .achiviements__points {
+        gap: 0;
+        flex-direction: column;
+    }
+}
+
+/*--------------------- CALENDER SECTION --------------------------*/
+
+@media screen and (max-width: 988px) {
+}
+
+@media screen and (max-width: 767px) {
+    .calender .calender__container .calender__body .calender__image {
+        width: 22.59581rem;
+        height: 22.08744rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .calender .calender__container .calender__body .calender__image {
+        display: none;
+    }
+    .calender .calender__container .calender__body .calender__info {
+        text-align: center;
+        max-width: auto;
+    }
+}
+
+@media screen and (max-width: 398px) {
+}
+
+/*--------------------- TESLA SECTION --------------------------*/
+
+@media screen and (max-width: 988px) {
+}
+
+@media screen and (max-width: 814px) {
+    .tesla .tesla__container .tesla__body .tesla__content .tesla__icons {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .tesla .tesla__container .tesla__body .tesla__image {
+        display: none;
+    }
+
+    .tesla .tesla__container .tesla__body .tesla__content {
+        text-align: center;
+        max-width: auto;
+    }
+    .tesla .tesla__container .tesla__body .tesla__content .tesla__icons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 398px) {
+}
+
+/*--------------------- MARKETING SECTION --------------------------*/
+
+@media screen and (max-width: 1132px) {
+    .marketing .marketing__container .marketing__body .marketing__cards {
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .marketing .marketing__container .marketing__body .marketing__cards {
+        gap: 10rem;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .marketing .marketing__container .marketing__body .marketing__cards {
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .marketing .marketing__container .marketing__body .marketing__cards {
+        gap: 10rem;
+    }
+}
+
+/*--------------------- DEMO SECTION --------------------------*/
+
+@media screen and (max-width: 398px) {
+    .demo {
+        margin-top: 5rem;
+    }
+    .demo .demo__container .demo__body .demo__title {
+        color: $demo-title-color;
+
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        max-width: 55.4rem;
+    }
+}
+
+/*--------------------- FOOTERSECTION --------------------------*/
+
+@media screen and (max-width: 988px) {
+}
+
+@media screen and (max-width: 814px) {
+}
+
+@media screen and (max-width: 660px) {
+    .footer .footer__container .footer__body .footer__menu{
+        display: flex;
+        gap: 1.2rem;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer .footer__container .footer__body .footer__menu{
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer .footer__container .footer__body{
+        flex-direction: column-reverse;
+    }
+}

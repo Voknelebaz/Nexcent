@@ -28,7 +28,7 @@
     .hero__body {
         display: flex;
         align-items: center;
-        gap: 6.5rem;flex-wrap:wrap;
+        gap: 6.5rem;
         padding-bottom: 4.38rem;
         .hero__title {
             color: $primary-color;
@@ -72,8 +72,8 @@
             border: 1px solid $secondary-color-hover;
         }
         .hero__image {
+            
             max-width: 25.4375rem;
-            width: 25.4375rem;
             height: 25.4375rem;
         }
     }

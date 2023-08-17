@@ -6,7 +6,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-wrap: wrap;
+        
         .achiviements__info {
             display: flex;
             max-width: 33.75rem;
@@ -38,7 +38,7 @@
 
         .achiviements__points {
             display: flex;
-            flex-wrap: wrap;
+           
             width: 33.75rem;
             align-items: center;
             gap: 2.5rem;
